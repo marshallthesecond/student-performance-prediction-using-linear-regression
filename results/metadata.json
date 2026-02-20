@@ -1,0 +1,24 @@
+{
+    "features": [
+        "Age",
+        "Gender",
+        "Ethnicity",
+        "ParentalEducation",
+        "StudyTimeWeekly",
+        "Absences",
+        "Tutoring",
+        "ParentalSupport",
+        "Extracurricular",
+        "Sports",
+        "Music",
+        "Volunteering"
+    ],
+    "metrics": {
+        "mae": 0.1554684466832654,
+        "mse": 0.03820486272340606,
+        "rmse": 0.19546064238973038,
+        "r2": 0.9530876164545139
+    },
+    "test_size": 0.25,
+    "random_state": 42
+}
