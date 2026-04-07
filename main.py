@@ -3,7 +3,7 @@ from results.plots.residuals import plot_residuals
 from src.data_preprocessing import load_and_clean_data
 from src.train_evaluate_model import train_linear_regression, evaluate, feature_importance
 # from src.evaluate_model import 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from results.plots.actual_vs_predicted_GPA import plot_actual_vs_predicted
 
 def main(): 

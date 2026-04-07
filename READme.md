@@ -1,4 +1,4 @@
-This project consists of predictive model that try to estimate the grade/GPA of students from the dataset 📚 Students Performance Dataset 📚 by Rabie El Kharoua at https://www.kaggle.com/datasets/rabieelkharoua/students-performance-dataset
+This project consists of predictive model that try to estimate the grade/GPA of students from the dataset 📚 Students Performance Dataset 📚 by Rabie El Kharoua at 
 
 
 --- Models ---:
