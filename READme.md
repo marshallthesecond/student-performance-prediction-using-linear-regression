@@ -12,6 +12,20 @@ python main.py --plots    # same, and also save the plots to results/plots/outpu
 The script can be run from any directory.
 
 
+--- Web app ---:
+
+app.py is a Streamlit app where students enter their study habits and activities and get a predicted GPA, grade letter, likely range, and the changes that would raise their prediction the most.
+
+```
+streamlit run app.py
+```
+
+The app only asks for the 7 features that affect GPA (StudyTimeWeekly, Absences, Tutoring, ParentalSupport, Extracurricular, Sports, Music), so no demographic data is collected. Leaving out the other features gives the same cross validated R² (0.953).
+The model is trained when the app starts, and nothing the user enters is stored.
+
+To put it online for free, deploy it on Streamlit Community Cloud (https://share.streamlit.io): sign in with GitHub, choose "Create app", pick this repository, branch main and file app.py.
+
+
 --- Models ---:
 
 1. Baseline (always predicts the mean GPA) - every model should beat it
